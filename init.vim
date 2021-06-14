@@ -43,8 +43,7 @@ let mapleader="\<space>"
 nnoremap <leader>; A;<esc>
 nnoremap <leader>ev :vsplit ~/.config/nvim/init.vim<cr>
 nnoremap <leader>sv :source ~/.config/nvim/init.vim<cr>
+nnoremap <leader>id gg=G
 
 map <F2> :w<CR><INSERT>
 imap <F2> <ESC>:w<CR><INSERT>
-map <F3> gg=G
-imap <F3> <ESC>gg=G
